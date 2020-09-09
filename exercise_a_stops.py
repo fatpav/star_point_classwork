@@ -1,17 +1,18 @@
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 
 #1. Add "Edinburgh Waverley" to the end of the list
+
 stops.append("edinburgh Waverley")
 print(stops)
 
 #2. Add "Glasgow Queen St" to the start of the list
 
-stops[0]= "Glasgow Queen St"
+stops.insert(0, "Glasgow Queen Street")    
 print(stops)
 
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 
-stops[3] = "Polmont"
+stops.insert(4, "Polmont")
 print(stops)
 
 #4. Print out the index position of "Linlithgow"
